@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ggmap on Mathieu Bray</title>
+    <link>/tags/ggmap/</link>
+    <description>Recent content in Ggmap on Mathieu Bray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ggmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactive NCAA Hockey Player Maps using ggmap, ggimage, ggiraph, and leaflet</title>
+      <link>/post/ncaa-hockey-maps/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ncaa-hockey-maps/</guid>
+      <description>Code for the maps can be found on Github
+Note that maps on this page are static. To interact with the maps, visit the Shiny app
+Been looking at some NCAA hockey data lately. Have a few ideas kicking around, none of which are really beyond the idea stage at this point… In the meantime, since I haven’t posted anything in a while, I figured I could at least put up something fun.</description>
+    </item>
+    
+  </channel>
+</rss>

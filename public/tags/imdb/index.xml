@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imdb on Mathieu Bray</title>
+    <link>/tags/imdb/</link>
+    <description>Recent content in Imdb on Mathieu Bray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 25 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/imdb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploratory Analysis on SNL Episode Ratings</title>
+      <link>/post/snl-charts/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/snl-charts/</guid>
+      <description>Code and data can be found on Github
+Figured I should chime in here since it’s been… let’s see here… ah, 4 months. I had previously promised to write about some NCAA hockey projects I had been working on. That… will have to wait -_-. In the meantime, let’s look instead at some Saturday Night Live data!
+For those not familiar, Saturday Night Live, commonly abbreviated as ‘SNL’, is a comedy-variety show that airs live on NBC on select Saturday nights over the course of a ‘season’, which runs from September through May.</description>
+    </item>
+    
+  </channel>
+</rss>

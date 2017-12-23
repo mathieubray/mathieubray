@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/snl-charts/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/introduction-kidney-paired-donation/</loc>
+    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ncaa-hockey-maps/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/extract-notes-mendeley/</loc>
+    <lastmod>2017-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/text-analysis-hockey-coaches/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/hello-world/</loc>
+    <lastmod>2016-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ggimage/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ggiraph/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ggmap/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ggraph/</loc>
+    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hockey/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/imdb/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kpd/</loc>
+    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/leaflet/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ompr/</loc>
+    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2017-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tidytext/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
