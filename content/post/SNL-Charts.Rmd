@@ -4,6 +4,7 @@ author: "Mathieu Bray"
 date: 2017-11-25
 categories: ["R"]
 tags: ["R", "IMDb"]
+slug: "SNL-Charts"
 ---
 
 *Code and data can be found on [Github](https://github.com/mathieubray/SNL)*

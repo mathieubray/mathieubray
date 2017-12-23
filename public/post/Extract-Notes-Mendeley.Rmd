@@ -4,6 +4,7 @@ author: "Mathieu Bray"
 date: 2017-03-29
 categories: ["R"]
 tags: ["R", "SQL"]
+slug: "Extract-Notes-Mendeley"
 ---
 
 *Code for this analysis is availabile on [Github](https://gist.github.com/mathieubray/c7073f542f54b52d93247544521ad4a2)*
