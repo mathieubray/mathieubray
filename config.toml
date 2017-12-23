@@ -1,4 +1,4 @@
-baseurl = "http://mathieubray.netlify.com"
+baseurl = "mathieubray.netlify.com"
 languageCode = "en-us"
 title = "Mathieu Bray"
 theme = "blackburn"
