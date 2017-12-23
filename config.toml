@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://mathieubray.netlify.com"
 languageCode = "en-us"
 title = "Mathieu Bray"
 theme = "blackburn"
@@ -7,6 +7,9 @@ copyright = "&copy; 2017. All rights reserved."
 canonifyurls = true
 paginate = 10
 enableEmoji = true
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
 
 [indexes]
   tag = "tags"
@@ -17,7 +20,7 @@ enableEmoji = true
   subtitle = "PhD Candidate. Biostatistics. Data Science"
   brand = "Mathieu Bray"
   googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  disqus = "mathieubray"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006"
