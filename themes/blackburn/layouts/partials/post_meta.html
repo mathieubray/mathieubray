@@ -4,6 +4,12 @@
     <i class="fa fa-calendar fa-fw"></i>
     <time>{{ with .Site.Params.dateFormat }}{{ $.Date.Format . }}{{ else }}{{ .Date.Format "02 Jan 2006, 15:04" }}{{ end }}</time>
   </div>
+  
+  
+  <div>
+    <i class="fa fa-twitter fa-fw"></i>
+      <a class="post-taxonomy-signature" href="https://twitter.com/mathieubray">mathieubray</a>&nbsp;
+  </div>
 
   {{ $baseUrl := .Site.BaseURL }}
 
@@ -30,5 +36,6 @@
   </div>
   {{ end }}
   {{ end }}
+  
 
 </div>

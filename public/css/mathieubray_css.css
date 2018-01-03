@@ -1,9 +1,9 @@
 .header {
-  font-family: "Helvetica", Helvetica, Arial, sans-serif
+  font-family: "Arial", Helvetica, Arial, sans-serif
 }
 
 a {
-  color: #b40486;
+  color: #9400d3;
   text-decoration: none;
 }
 a:hover,
@@ -72,7 +72,7 @@ i {
 }
 
 .pagination a {
-  color: #b40486;
+  color: #9400d3;
 }
 
 
@@ -147,7 +147,7 @@ The content `<div>` is where all your content goes.
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #235235;
+    color: #e0e0e0;
 }
 
 
@@ -165,7 +165,7 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #99a9b7;
+    background: #e0e0e0;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -207,7 +207,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #00274c;
+        background: #e0e0e0;
     }
         /*
         This styles a link within a selected menu item `<li>`.
@@ -241,8 +241,7 @@ small screens.
     display: block; /* show this only on small screens */
     top: 0;
     left: 0; /* "#menu width" */
-    background: #00274c;
-    background: rgba(0,0,0,0.7);
+    background: #00274b;
     font-size: 10px; /* change this value to increase/decrease button size */
     z-index: 10;
     width: 2em;
@@ -252,7 +251,7 @@ small screens.
 
     .menu-link:hover,
     .menu-link:focus {
-        background: #000000;
+        background: #00274b;
     }
 
     .menu-link span {
@@ -263,7 +262,7 @@ small screens.
     .menu-link span,
     .menu-link span:before,
     .menu-link span:after {
-        background-color: #000000;
+        background-color: #e0e0e0;
         width: 100%;
         height: 0.2em;
     }

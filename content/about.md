@@ -4,9 +4,12 @@ sidemenu = "true"
 description = "PhD Candidate. Biostatistics. Data Science"
 +++
 
-![](/images/headshot.jpg)
-
 Hi! My name is Mathieu Bray and I am a Ph.D. candidate in the [Department of Biostatistics](http://sph.umich.edu/biostat/) of the [University of Michigan School of Public Health](https://www.sph.umich.edu/). I achieved candidacy in May of 2015, and am currently working on my dissertation under the supervision of [Dr. Peter X-K Song](http://www.umich.edu/~songlab/). I previously obtained my B.Sc. (Joint Honours in Statistics and Computer Science) in 2012 from [McGill University](https://www.mcgill.ca).
+
+<span style="display:block;text-align:center">
+![](/images/headshot.jpg)
+</span>
+
 
 My main research focus is in kidney exchange networks, also known as Kidney Paired Donation (KPD). To that end, I have been assisting the [KPD Simulation Group](http://kecc.sph.umich.edu/projects/optimization-and-simulation-kidney-paired-donation-program) at the [U-M Kidney Epidemiology and Cost Center](http://kecc.sph.umich.edu/) with investigations on optimization strategies in KPD, as well as development of visualization software for KPD networks.
 

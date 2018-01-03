@@ -1,11 +1,11 @@
-baseurl = "/"
+baseurl = "https://mathieubray.com"
 languageCode = "en-us"
 title = "Mathieu Bray"
 theme = "blackburn"
 author = "Mathieu Bray"
-copyright = "&copy; 2017. All rights reserved."
+copyright = "Mathieu Bray. &copy; 2017. All rights reserved."
 canonifyurls = true
-paginate = 10
+paginate = 5
 enableEmoji = true
 
 [permalinks]
@@ -18,9 +18,9 @@ enableEmoji = true
 [params]
   # Shown in the home page
   subtitle = "PhD Candidate. Biostatistics. Data Science"
-  brand = "Mathieu Bray"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "mathieubray"
+  brand = "![](/images/headshot-small.png)"
+  googleAnalytics = "UA-89873260-1"
+  disqus = ""
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006"
@@ -37,18 +37,18 @@ enableEmoji = true
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
+    weight = 3
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "CV"
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
-    weight = 3
+    weight = 4
     url = "/cv.pdf"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 4
+    weight = 2
     identifier = "about"
     url = "/about/"
 

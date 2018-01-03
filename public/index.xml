@@ -6,7 +6,7 @@
     <description>Recent content on Mathieu Bray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <copyright>Mathieu Bray. &amp;copy; 2017. All rights reserved.</copyright>
     <lastBuildDate>Sat, 25 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -82,6 +82,7 @@ I plan on using this space to post my musings on statistics that, shall we say, 
       
       <guid>/about/</guid>
       <description>Hi! My name is Mathieu Bray and I am a Ph.D. candidate in the Department of Biostatistics of the University of Michigan School of Public Health. I achieved candidacy in May of 2015, and am currently working on my dissertation under the supervision of Dr. Peter X-K Song. I previously obtained my B.Sc. (Joint Honours in Statistics and Computer Science) in 2012 from McGill University.
+
 My main research focus is in kidney exchange networks, also known as Kidney Paired Donation (KPD).</description>
     </item>
     
