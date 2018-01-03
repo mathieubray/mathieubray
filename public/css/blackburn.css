@@ -1,9 +1,9 @@
 .header {
-  font-family: "Raleway", Helvetica, Arial, sans-serif
+  font-family: "Arial", Helvetica, Arial, sans-serif
 }
 
 a {
-  color: #3b8bba;
+  color: #9400d3;
   text-decoration: none;
 }
 a:hover,
@@ -11,7 +11,7 @@ a:focus {
   text-decoration: underline;
 }
 a:visited {
-  color: #265778;
+  color: #b40486;
 }
 
 .small-print {
@@ -48,7 +48,6 @@ article > footer {
 }
 
 #menu .brand {
-  font-family: Raleway;
   font-weight: bold;
   font-size: 1em;
   letter-spacing: 0.1em;
@@ -73,5 +72,5 @@ i {
 }
 
 .pagination a {
-  color: #265778;
+  color: #9400d3;
 }
