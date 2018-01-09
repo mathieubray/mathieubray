@@ -20,7 +20,7 @@ enableEmoji = true
   subtitle = "PhD Candidate. Biostatistics. Data Science"
   brand = "![](/images/headshot-small.png)"
   googleAnalytics = "UA-89873260-1"
-  disqus = ""
+  disqus = "mathieubray"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006"
