@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beta on Mathieu Bray</title>
+    <link>/beta/</link>
+    <description>Recent content in Beta on Mathieu Bray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Mathieu Bray. &amp;copy; 2017. All rights reserved.</copyright>
+    
+	<atom:link href="/beta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NCAA Simulations</title>
+      <link>/beta/ncaa-simulations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/beta/ncaa-simulations/</guid>
+      <description>Code and data can be found on Github
+First, let’s load our handy libraries.
+library(dplyr) # Lifeblood of data science</description>
+    </item>
+    
+    <item>
+      <title>NHL Survival Analyses</title>
+      <link>/beta/nhl-survival-analyses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/beta/nhl-survival-analyses/</guid>
+      <description>Code and data can be found on Github
+First, let’s load our handy libraries.
+library(dplyr) # Lifeblood of data science</description>
+    </item>
+    
+    <item>
+      <title>Score-Adjusted NHL Penalties</title>
+      <link>/beta/nhl-penalties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/beta/nhl-penalties/</guid>
+      <description>Code and data can be found on Github
+First, let’s load our handy libraries.
+library(dplyr) # Lifeblood of data science</description>
+    </item>
+    
+    <item>
+      <title>Some More Thoughts on Quebecois Players against the Montreal Canadiens</title>
+      <link>/beta/canadiens-vs-quebec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/beta/canadiens-vs-quebec/</guid>
+      <description>Code and data can be found on Github
+First, let’s load our handy libraries.
+library(dplyr) # Lifeblood of data science</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -277,7 +277,7 @@
 
 
 <p><em>Code for the maps can be found on <a href="https://github.com/mathieubray/Hockey/tree/master/NCAA/Projects/Maps">Github</a></em></p>
-<p><strong>Note that maps on this page are static. To interact with the maps, visit the <a href="https://mathieubray-personal.shinyapps.io/NCAAPlayersHometown/">Shiny app</a></strong></p>
+<p><strong>Note that some of the maps on this page are static. To interact with the maps, visit the <a href="https://mathieubray-personal.shinyapps.io/NCAAPlayersHometown/">Shiny app</a></strong></p>
 <p>Been looking at some NCAA hockey data lately. Have a few ideas kicking around, none of which are really beyond the idea stage at this point… In the meantime, since I haven’t posted anything in a while, I figured I could at least put up something fun. So here are some maps of the men’s NCAA hockey players’ hometowns, which I made using a bunch of packages in R, namely <code>ggmap</code>, <code>ggimage</code>, <code>ggiraph</code> and <code>leaflet</code>.</p>
 <p>The <code>ggmap</code> package, by <a href="http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf">David Kahle and Hadley Wickham</a>, allows the user to draw plots on top of Google Maps, plus other features such as <a href="https://en.wikipedia.org/wiki/Geocoding">geocoding</a>. <code>ggimage</code>, by <a href="https://cran.r-project.org/web/packages/ggimage/vignettes/ggimage.html">Guangchang Yu</a>, allows a user to plot images as points. <code>ggiraph</code>, by <a href="https://www.rdocumentation.org/packages/ggiraph/versions/0.3.2/topics/ggiraph">David Gohel</a>, adds interactivity to plots, which here we’ll use to display player biographical information as a tooltip. Finally, the <code>leaflet</code> package, by <a href="https://rstudio.github.io/leaflet/">Vladimir Agafonkin et al.</a>, provides an R implementation of the Javascript Leaflet library for creating and working with interactive maps.</p>
 <p>I’ve put together a <a href="https://mathieubray-personal.shinyapps.io/NCAAPlayersHometown/">Shiny app</a> where you can interact with the maps from this post. Originally, I wanted to use <code>ggmap</code> for the plots, as I had been using that package to produce spatial visualizations for other projects. Of course, it turns out the <code>leaflet</code> package does all of what I wanted to do much more easily and with many additional features. I’ll talk about how to make maps using both of these packages here.</p>
@@ -510,9 +510,8 @@ zoom &lt;- 4
 
 center &lt;- geocode(area, output = &quot;latlona&quot;, source = &quot;google&quot;)
 center.lon &lt;- as.numeric(center[1])
-center.lat &lt;- as.numeric(center[2])
-
-# With logos
+center.lat &lt;- as.numeric(center[2])</code></pre>
+<pre class="r"><code># With logos
 
 plot &lt;- ggmap(get_map(area, zoom=zoom)) + # Load map of area
   geom_image(aes(x=Lon, y=Lat, image=Image), data=players, size=0.04, alpha=0.8) + # Add logos
@@ -524,8 +523,22 @@ plot &lt;- ggmap(get_map(area, zoom=zoom)) + # Load map of area
         axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank())
 
 ggiraph(code={print(plot)}, width=1, width_svg=20, height_svg=16) # Interactive plot</code></pre>
+<p><img src="/post/NCAA-Hockey-Maps_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
 <p>In supported environemnts, to display the player information as a tooltip, we use the <code>geom_point_interactive</code> function from the <code>ggiraph</code> package (essentially, this places large transparent points underneath each logo which will interact with mouse movement). The final plot is rendered using the <code>ggiraph</code> function.</p>
 <p>This first plot is quite busy, showing the entire set of players from the 2016-2017 season. We can see a few players from non-traditional hockey places outside of the US-Canada border, such as Montana, New Mexico, and Northwest Florida (Bentley in particular seems to draw interest from some non-traditional areas, Houston and Oklahoma). Suppose we wanted to focus on, for example, just Big Ten teams, in some area with high activity, say Detroit…</p>
+<pre class="r"><code># With logos
+
+plot &lt;- ggmap(get_map(area, zoom=zoom)) + # Load map of area
+  geom_image(aes(x=Lon, y=Lat, image=Image), data = big.ten, size=0.04, alpha=0.8) + # Add logos
+  ggplot2::annotate(&quot;text&quot;, x=center.lon, y=center.lat, 
+                    col=&quot;red&quot;, label=&quot;@mathieubray&quot;, alpha=0.2, cex=30, fontface=&quot;bold&quot;, angle=30) + # Watermark
+  geom_point_interactive(aes(x=Lon, y=Lat, tooltip=Label),
+                         size=15, alpha=0.01, data=players) + # Add interactive points underneath logos
+  theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank(), # Remove axes
+        axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank())
+
+ggiraph(code={print(plot)}, width=1, width_svg=20, height_svg=16) # Interactive plot</code></pre>
+<p><img src="/post/NCAA-Hockey-Maps_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
 <p>To plot maps without logos, we color the points generated by <code>geom_point_interactive</code> with a different color for each <code>Team</code>, instead of using <code>geom_image</code>. Here, I map each team to the <code>Color</code> value from the <code>logo.images</code> data set using <code>scale_fill_manual</code>, but colors will be automatically added as well if that line of code is removed.</p>
 <pre class="r"><code># Without logos
   
@@ -538,10 +551,22 @@ plot &lt;- ggmap(get_map(area, zoom=zoom)) + # Load map of area
   guides(fill=guide_legend(override.aes=list(alpha=1))) + # Format legend and remove axes
   theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
         axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
-        legend.position=&quot;bottom&quot;, legend.title = element_blank(), legend.text=element_text(size=20))
+        legend.position=&quot;bottom&quot;, legend.title = element_blank(), legend.text=element_text(size=20))</code></pre>
+<pre class="r"><code># Without logos
   
+plot &lt;- ggmap(get_map(area, zoom=zoom)) + # Load map of area
+  ggplot2::annotate(&quot;text&quot;, x=center.lon, y=center.lat, 
+                    col=&quot;red&quot;, label=&quot;@mathieubray&quot;, alpha=0.2, cex=30, fontface=&quot;bold&quot;, angle=30) + # Watermark
+  geom_point_interactive(aes(x=Lon, y=Lat, tooltip=Label, fill=Team), 
+                         pch=21, color=&quot;black&quot;, size=10, alpha=0.5, data=players) + # Add interactive points
+  scale_fill_manual(values=player.colors) + # Change color of points
+  guides(fill=guide_legend(override.aes=list(alpha=1))) + # Format legend and remove axes
+  theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+        legend.position=&quot;bottom&quot;, legend.title = element_blank(), legend.text=element_text(size=20))
 
 ggiraph(code={print(plot)}, width=1, width_svg=24, height_svg=20) # Interactive plot</code></pre>
+<p><img src="/post/NCAA-Hockey-Maps_files/figure-html/unnamed-chunk-23-1.png" width="768" /></p>
 </div>
 <div id="using-leaflet" class="section level3">
 <h3>Using leaflet</h3>

@@ -607,7 +607,7 @@ ggplot(data=snl.data, aes(x=Rating, y=as.factor(Season), fill=MedianRating)) +
   xlim(0,10) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Season&quot;) +
-  annotate(&quot;text&quot;,x=5,y=20,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=20,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=15,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;SNL Ratings Density by Season&quot;, subtitle = &quot;Color represents median episode rating from the given season. Data from imdb.com&quot;)</code></pre>
 <p><img src="/post/SNL-Charts_files/figure-html/snl_1-1.png" width="960" /></p>
@@ -632,7 +632,7 @@ ggplot(data=snl.data, aes(x=as.factor(Season), y=Votes, color = MeanVotes)) +
   xlab(&quot;Season&quot;) +
   theme_bw(16) +
   coord_flip() +
-  annotate(&quot;text&quot;,x=21,y=250,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=21,y=250,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=12,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;Number of Votes for SNL Rating is Not Consistent Season to Season&quot;,
           subtitle=&quot;Color represents mean number of votes by season. Data from imdb.com&quot; )</code></pre>
@@ -645,7 +645,7 @@ ggplot(data=snl.data, aes(x=as.factor(Season), y=Votes, color = MeanVotes)) +
   ylim(0,50) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Number of Episodes&quot;) +
-  annotate(&quot;text&quot;,x=5,y=25,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=25,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=15,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;SNL Ratings Histogram&quot;,
           subtitle=&quot;Data from imdb.com&quot; )</code></pre>
@@ -656,7 +656,7 @@ ggplot(data=snl.data, aes(x=as.factor(Season), y=Votes, color = MeanVotes)) +
   xlim(0,10) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Density&quot;) +
-  annotate(&quot;text&quot;,x=5,y=0.25,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=0.25,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=15,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;SNL Ratings Density&quot;,
           subtitle=&quot;Data from imdb.com&quot; )</code></pre>
@@ -744,7 +744,7 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=WeeksCat)) +
   ylim(0,0.62) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Density&quot;) +
-  annotate(&quot;text&quot;,x=5,y=0.31,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=0.31,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=6,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;Does the Break Before an SNL Episode Affect its Rating?&quot;,
           subtitle=&quot;Grey curves represent overall ratings density. Data from imdb.com&quot; )</code></pre>
@@ -776,7 +776,7 @@ snl.data.enhanced %&gt;%
   ylim(0,0.5) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Density&quot;) +
-  annotate(&quot;text&quot;,x=5,y=0.25,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=0.25,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=15,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;Are Ratings Affected by Whether an Episode Airs After a Break?&quot;,
           subtitle=&quot;Color represents whether episodes are the first of their seasons (&#39;Premiere&#39;) or not (&#39;Not Premiere&#39;).\nData from imdb.com&quot; )</code></pre>
@@ -804,7 +804,7 @@ snl.data.enhanced %&gt;%
   ylim(0,0.5) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Density&quot;) +
-  annotate(&quot;text&quot;,x=5,y=0.25,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=0.25,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=15,fontface=&quot;bold&quot;,angle=30) +
   ggtitle(&quot;Are Ratings Affected by Whether an Episode is a Season Premiere?&quot;,
           subtitle=&quot;Color represents whether episodes are the first of their seasons (&#39;Premiere&#39;) or not (&#39;Not Premiere&#39;).\nData from imdb.com&quot; )</code></pre>
@@ -873,7 +873,7 @@ snl.data.enhanced %&gt;%
   xlim(0,10) +
   xlab(&quot;Rating&quot;) +
   ylab(&quot;Density&quot;) +
-  annotate(&quot;text&quot;,x=5,y=0.31,col=&quot;red&quot;,label=paste0(&quot;@mathieubray &quot;,lubridate::year(lubridate::today())),
+  annotate(&quot;text&quot;,x=5,y=0.31,col=&quot;red&quot;,label=&quot;@mathieubray 2017&quot;,
            alpha=0.15,cex=6,fontface=&quot;bold&quot;,angle=30) +
   theme(legend.position = &quot;bottom&quot;) +
   ggtitle(&quot;Do Long Sequences of Episodes Affect Ratings?&quot;,

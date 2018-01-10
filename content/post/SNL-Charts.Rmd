@@ -307,7 +307,7 @@ ggplot(data=snl.data, aes(x=Rating, y=as.factor(Season), fill=MedianRating)) +
   xlim(0,10) +
   xlab("Rating") +
   ylab("Season") +
-  annotate("text",x=5,y=20,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=20,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=15,fontface="bold",angle=30) +
   ggtitle("SNL Ratings Density by Season", subtitle = "Color represents median episode rating from the given season. Data from imdb.com")
 
@@ -341,7 +341,7 @@ ggplot(data=snl.data, aes(x=as.factor(Season), y=Votes, color = MeanVotes)) +
   xlab("Season") +
   theme_bw(16) +
   coord_flip() +
-  annotate("text",x=21,y=250,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=21,y=250,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=12,fontface="bold",angle=30) +
   ggtitle("Number of Votes for SNL Rating is Not Consistent Season to Season",
           subtitle="Color represents mean number of votes by season. Data from imdb.com" )
@@ -359,7 +359,7 @@ ggplot(data=snl.data, aes(Rating)) +
   ylim(0,50) +
   xlab("Rating") +
   ylab("Number of Episodes") +
-  annotate("text",x=5,y=25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=25,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=15,fontface="bold",angle=30) +
   ggtitle("SNL Ratings Histogram",
           subtitle="Data from imdb.com" )
@@ -373,7 +373,7 @@ ggplot(data=snl.data, aes(x=Rating)) +
   xlim(0,10) +
   xlab("Rating") +
   ylab("Density") +
-  annotate("text",x=5,y=0.25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=0.25,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=15,fontface="bold",angle=30) +
   ggtitle("SNL Ratings Density",
           subtitle="Data from imdb.com" )
@@ -439,7 +439,7 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=WeeksCat)) +
   ylim(0,0.62) +
   xlab("Rating") +
   ylab("Density") +
-  annotate("text",x=5,y=0.31,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=0.31,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=6,fontface="bold",angle=30) +
   ggtitle("Does the Break Before an SNL Episode Affect its Rating?",
           subtitle="Grey curves represent overall ratings density. Data from imdb.com" )
@@ -473,7 +473,7 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=FreshEpisode)) +
   ylim(0,0.5) +
   xlab("Rating") +
   ylab("Density") +
-  annotate("text",x=5,y=0.25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=0.25,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=15,fontface="bold",angle=30) +
   ggtitle("Are Ratings Affected by Whether an Episode Airs After a Break?",
           subtitle="Color represents whether episodes are the first of their seasons ('Premiere') or not ('Not Premiere').\nData from imdb.com" )
@@ -504,7 +504,7 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=Premiere)) +
   ylim(0,0.5) +
   xlab("Rating") +
   ylab("Density") +
-  annotate("text",x=5,y=0.25,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=0.25,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=15,fontface="bold",angle=30) +
   ggtitle("Are Ratings Affected by Whether an Episode is a Season Premiere?",
           subtitle="Color represents whether episodes are the first of their seasons ('Premiere') or not ('Not Premiere').\nData from imdb.com" )
@@ -570,7 +570,7 @@ ggplot(data=snl.data.enhanced, aes(x=Rating, fill=ConsecutiveCat)) +
   xlim(0,10) +
   xlab("Rating") +
   ylab("Density") +
-  annotate("text",x=5,y=0.31,col="red",label=paste0("@mathieubray ",lubridate::year(lubridate::today())),
+  annotate("text",x=5,y=0.31,col="red",label="@mathieubray 2017",
            alpha=0.15,cex=6,fontface="bold",angle=30) +
   theme(legend.position = "bottom") +
   ggtitle("Do Long Sequences of Episodes Affect Ratings?",
