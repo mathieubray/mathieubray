@@ -17,7 +17,7 @@ enableEmoji = true
 
 [params]
   # Shown in the home page
-  subtitle = "PhD Candidate. Biostatistics. Data Science"
+  subtitle = "My views are important, but they're not the be-all-end-all"
   brand = "![](/images/professional-headshot-small.png)"
   googleAnalytics = "UA-89873260-1"
   disqus = "mathieubray"
