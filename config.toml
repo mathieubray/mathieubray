@@ -35,7 +35,7 @@ enableEmoji = true
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
+    name = "Blog Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 3
     identifier = "post"
@@ -55,6 +55,8 @@ enableEmoji = true
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
+  scholar = "CVB1O1oAAAAJ&hl"
   twitter = "mathieubray"
   github = "mathieubray"
   linkedin = "mathieubray"
+  
