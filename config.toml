@@ -46,6 +46,11 @@ enableEmoji = true
     weight = 4
     url = "/cv.pdf"
   [[menu.main]]
+    name = "CV (Francais)"
+    pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
+    weight = 5
+    url = "/cv-francais.pdf"	
+  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 2
