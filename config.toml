@@ -35,23 +35,23 @@ enableEmoji = true
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Blog Posts"
+    name = "Blog"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 3
     identifier = "post"
     url = "/post/"
   [[menu.main]]
-    name = "CV"
+    name = "CV - English"
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
     weight = 4
     url = "/cv.pdf"
   [[menu.main]]
-    name = "CV (Francais)"
+    name = "CV - Français"
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
     weight = 5
     url = "/cv-francais.pdf"	
   [[menu.main]]
-    name = "About"
+    name = "Bio"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 2
     identifier = "about"
