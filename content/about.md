@@ -26,12 +26,14 @@ J’utilise ce site occasionnellement pour la présentation des [articles de blo
 <span style="display:block;text-align:center">
 ![](/images/professional-headshot.jpg)
 
-## Links:
+
+
+## Links/Liens:
 - [University of Michigan Biostatistics](http://sph.umich.edu/biostat/)
 - [KPD Simulation Group](http://kecc.sph.umich.edu/projects/optimization-and-simulation-kidney-paired-donation-program)
 - [Song Lab](http://www.umich.edu/~songlab/)
-- [Curriculum Vitae](/cv.pdf)
-- [Google Scholar](https://scholar.google.com/citations?user=CVB1O1oAAAAJ&hl=en)
+- [CV](/cv.pdf)
+- [CV -Français](/cv-francais.pdf)
 - [Twitter](http://twitter.com/mathieubray)
 - [LinkedIn](http://www.linkedin.com/in/mathieubray) 
 - [GitHub](http://github.com/mathieubray)

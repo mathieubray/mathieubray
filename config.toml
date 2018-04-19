@@ -60,7 +60,7 @@ enableEmoji = true
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  scholar = "CVB1O1oAAAAJ&hl"
+  #scholar = "CVB1O1oAAAAJ&hl"
   twitter = "mathieubray"
   github = "mathieubray"
   linkedin = "mathieubray"
