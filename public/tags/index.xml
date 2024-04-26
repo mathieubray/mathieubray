@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mathieu Bray</title>
-    <link>/tags/</link>
+    <link>https://mathieubray.com/tags/</link>
     <description>Recent content in Tags on Mathieu Bray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Mathieu Bray. &amp;copy; 2017. All rights reserved.</copyright>
+    <copyright>Mathieu Bray. &amp;copy; 2024. All rights reserved.</copyright>
     <lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mathieubray.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ggimage</title>
-      <link>/tags/ggimage/</link>
+      <link>https://mathieubray.com/tags/ggimage/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggimage/</guid>
+      <guid>https://mathieubray.com/tags/ggimage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggiraph</title>
-      <link>/tags/ggiraph/</link>
+      <link>https://mathieubray.com/tags/ggiraph/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggiraph/</guid>
+      <guid>https://mathieubray.com/tags/ggiraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggmap</title>
-      <link>/tags/ggmap/</link>
+      <link>https://mathieubray.com/tags/ggmap/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggmap/</guid>
+      <guid>https://mathieubray.com/tags/ggmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggraph</title>
-      <link>/tags/ggraph/</link>
+      <link>https://mathieubray.com/tags/ggraph/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggraph/</guid>
+      <guid>https://mathieubray.com/tags/ggraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hockey</title>
-      <link>/tags/hockey/</link>
+      <link>https://mathieubray.com/tags/hockey/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hockey/</guid>
+      <guid>https://mathieubray.com/tags/hockey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Imdb</title>
-      <link>/tags/imdb/</link>
+      <link>https://mathieubray.com/tags/imdb/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/imdb/</guid>
+      <guid>https://mathieubray.com/tags/imdb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kpd</title>
-      <link>/tags/kpd/</link>
+      <link>https://mathieubray.com/tags/kpd/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/kpd/</guid>
+      <guid>https://mathieubray.com/tags/kpd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Leaflet</title>
-      <link>/tags/leaflet/</link>
+      <link>https://mathieubray.com/tags/leaflet/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/leaflet/</guid>
+      <guid>https://mathieubray.com/tags/leaflet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ompr</title>
-      <link>/tags/ompr/</link>
+      <link>https://mathieubray.com/tags/ompr/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ompr/</guid>
+      <guid>https://mathieubray.com/tags/ompr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://mathieubray.com/tags/r/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://mathieubray.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sql</title>
-      <link>/tags/sql/</link>
+      <link>https://mathieubray.com/tags/sql/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sql/</guid>
+      <guid>https://mathieubray.com/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tidytext</title>
-      <link>/tags/tidytext/</link>
+      <link>https://mathieubray.com/tags/tidytext/</link>
       <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tidytext/</guid>
+      <guid>https://mathieubray.com/tags/tidytext/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql on Mathieu Bray</title>
-    <link>/tags/sql/</link>
+    <link>https://mathieubray.com/tags/sql/</link>
     <description>Recent content in Sql on Mathieu Bray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Mathieu Bray. &amp;copy; 2017. All rights reserved.</copyright>
+    <copyright>Mathieu Bray. &amp;copy; 2024. All rights reserved.</copyright>
     <lastBuildDate>Wed, 29 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mathieubray.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Extract Mendeley Notes Using R</title>
-      <link>/2017/03/29/extract-notes-mendeley/</link>
+      <link>https://mathieubray.com/2017/03/29/extract-notes-mendeley/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/03/29/extract-notes-mendeley/</guid>
+      <guid>https://mathieubray.com/2017/03/29/extract-notes-mendeley/</guid>
       <description>Code for this analysis is availabile on Github
 Thought I would offer up a quick post on something that had sidetracked me earlier this week, namely how to extract notes and annotations in Mendeley using R. Basically I was having a similar problem as Daniel Hynk here, which he solved using Python. I too use Mendeley as a reference manager, which also has the handy feature of allowing users to add their own annotations and notes to their saved documents.</description>
     </item>

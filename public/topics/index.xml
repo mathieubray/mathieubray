@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Mathieu Bray</title>
-    <link>/topics/</link>
+    <link>https://mathieubray.com/topics/</link>
     <description>Recent content in Topics on Mathieu Bray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Mathieu Bray. &amp;copy; 2017. All rights reserved.</copyright>
+    <copyright>Mathieu Bray. &amp;copy; 2024. All rights reserved.</copyright>
     
-	<atom:link href="/topics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mathieubray.com/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Mathieu Bray"
 theme = "blackburn"
 author = "Mathieu Bray"
-copyright = "Mathieu Bray. &copy; 2017. All rights reserved."
+copyright = "Mathieu Bray. &copy; 2024. All rights reserved."
 canonifyurls = true
 paginate = 5
 enableEmoji = true
@@ -17,9 +17,10 @@ enableEmoji = true
 
 [params]
   # Shown in the home page
-  subtitle = "My views are important, but they're not the be-all-end-all"
+  subtitle = "Statistics Leader / Dirigeant de Statistiques"
   brand = "![](/images/professional-headshot-small.png)"
-  googleAnalytics = "UA-89873260-1"
+  #googleAnalytics = "UA-89873260-1"
+  googleAnalytics = "361390809"
   disqus = "mathieubray"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
@@ -44,12 +45,12 @@ enableEmoji = true
     name = "CV - English"
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
     weight = 4
-    url = "/cv.pdf"
+    url = "/CV.pdf"
   [[menu.main]]
     name = "CV - Français"
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
     weight = 5
-    url = "/cv-francais.pdf"	
+    url = "/CV_Francais.pdf"	
   [[menu.main]]
     name = "Bio"
     pre = "<i class='fa fa-user fa-fw'></i>"
@@ -61,7 +62,7 @@ enableEmoji = true
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
   #scholar = "CVB1O1oAAAAJ&hl"
-  twitter = "mathieubray"
+  #twitter = "mathieubray"
   github = "mathieubray"
   linkedin = "mathieubray"
   

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kpd on Mathieu Bray</title>
-    <link>/tags/kpd/</link>
+    <link>https://mathieubray.com/tags/kpd/</link>
     <description>Recent content in Kpd on Mathieu Bray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Mathieu Bray. &amp;copy; 2017. All rights reserved.</copyright>
+    <copyright>Mathieu Bray. &amp;copy; 2024. All rights reserved.</copyright>
     <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/kpd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mathieubray.com/tags/kpd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An Introduction to Kidney Paired Donation, with ompr and ggraph</title>
-      <link>/2017/07/19/introduction-kidney-paired-donation/</link>
+      <link>https://mathieubray.com/2017/07/19/introduction-kidney-paired-donation/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/07/19/introduction-kidney-paired-donation/</guid>
+      <guid>https://mathieubray.com/2017/07/19/introduction-kidney-paired-donation/</guid>
       <description>Code for this worked example can be found on Github
 While most of my work posted here over the past year has been inspired by hockey statistics, the majority of my time is spent doing actual work on a much more important problem.
 Let’s say you know someone in need of a kidney transplant, and after careful reflection on the risks, you are willing to donate one of your kidneys to your friend.</description>

@@ -21,13 +21,13 @@
   <!--<![endif]-->
 
   <!--[if lte IE 8]>
-  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <link rel="stylesheet" href="https://mathieubray.com/css/side-menu-old-ie.css">
   <![endif]-->
   <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="/css/side-menu.css">
+  <link rel="stylesheet" href="https://mathieubray.com/css/side-menu.css">
   <!--<![endif]-->
 
-  <link rel="stylesheet" href="/css/blackburn.css">
+  <link rel="stylesheet" href="https://mathieubray.com/css/blackburn.css">
 
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -45,10 +45,10 @@
   <script>hljs.initHighlightingOnLoad();</script>
   
 
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://mathieubray.com/img/favicon.ico" type="image/x-icon" />
 
   
-    <link rel="stylesheet" href="/css/mathieubray_css.css">
+    <link rel="stylesheet" href="https://mathieubray.com/css/mathieubray_css.css">
   
   
 
@@ -66,7 +66,7 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="/about/"><img src="/images/professional-headshot-small.png" alt="" /></a>
+  <a class="pure-menu-heading brand" href="https://mathieubray.com/about/"><img src="https://mathieubray.com/images/professional-headshot-small.png" alt="" /></a>
 
 
   <div class="pure-menu">
@@ -74,31 +74,31 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
+          <a class="pure-menu-link" href="https://mathieubray.com/"><i class='fa fa-home fa-fw'></i>Home</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>Bio</a>
+          <a class="pure-menu-link" href="https://mathieubray.com/about/"><i class='fa fa-user fa-fw'></i>Bio</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Blog</a>
+          <a class="pure-menu-link" href="https://mathieubray.com/post/"><i class='fa fa-list fa-fw'></i>Blog</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/cv.pdf"><i class='fa fa-file-pdf-o fa-fw'></i>CV - English</a>
+          <a class="pure-menu-link" href="https://mathieubray.com/cv.pdf"><i class='fa fa-file-pdf-o fa-fw'></i>CV - English</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/cv-francais.pdf"><i class='fa fa-file-pdf-o fa-fw'></i>CV - Français</a>
+          <a class="pure-menu-link" href="https://mathieubray.com/cv_francais.pdf"><i class='fa fa-file-pdf-o fa-fw'></i>CV - Français</a>
       
         </li>
       
@@ -115,10 +115,6 @@
     
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/mathieubray" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -204,7 +200,7 @@
 
   <div>
   <div class="small-print">
-    <small>Mathieu Bray. &copy; 2017. All rights reserved.</small>
+    <small>Mathieu Bray. &copy; 2024. All rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
@@ -247,11 +243,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="/tags/r">R</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://mathieubray.com/tags/r">R</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="/tags/hockey">hockey</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://mathieubray.com/tags/hockey">hockey</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="/tags/tidytext">tidytext</a>
+      <a class="post-taxonomy-tag" href="https://mathieubray.com/tags/tidytext">tidytext</a>
     
   </div>
   
@@ -414,18 +410,18 @@ ggplot(data=coaches.word.count,aes(x=Word,y=Occurrences,fill=Subject)) +
   xlab(&quot;Word&quot;) +
   coord_flip() +
   theme_bw(15)</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <pre class="r"><code># Word clouds for each coach
 coaches.words %&gt;%
   filter(Subject == &quot;Mike Sullivan&quot;) %&gt;%
   count(Word) %&gt;%
   with(wordcloud(Word,n,max.words=100,colors=team.colors[1]))</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
 <pre class="r"><code>coaches.words %&gt;%
   filter(Subject == &quot;Peter DeBoer&quot;) %&gt;%
   count(Word) %&gt;%
   with(wordcloud(Word,n,max.words=100,colors=team.colors[2]))</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-6-3.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-6-3.png" width="672" /></p>
 <p>These words are more or less what you would expect a hockey coach to be saying in an interview. The most frequent word used by each coach is ‘game’, and they both use several derivatives of the word ‘play’. There are also plenty of references to hockey-specific subjects, such as ‘puck’ and ‘net’. All in all, no real surprises (or insight) here.</p>
 <p>Let’s see if we can find any differences between the speaking patterns of these two coaches. This first technique is the same used by David Robinson in his <a href="http://varianceexplained.org/r/trump-tweets/">Trump</a> post. For each word, we compare the frequency of use by Sullivan to that of DeBoer by taking the natural log of their ratio. High positive values refer to words used more frequently by Sullivan, while negative values refer to words used more frequently by DeBoer.</p>
 <pre class="r"><code>## Most Different Words
@@ -452,7 +448,7 @@ ggplot(data=coach.ratios,aes(x=reorder(Word,LogRatio),y=LogRatio,fill=Team)) +
   ylab(&quot;Log Ratio (Sullivan vs. DeBoer)&quot;) +
   coord_flip() +
   theme_bw(15)</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 <p>Results here are largely uninteresting, with both coaches employing a smattering of different hockey-centric words and qualifiers. Of the few standout words, we should probably expect Sullivan to refer to his players ‘<a href="https://en.wikipedia.org/wiki/Sidney_Crosby">Sid</a>’ and ‘<a href="https://en.wikipedia.org/wiki/Evgeni_Malkin">Geno</a>’ more often than his counterpart, and DeBoer to refer to his opponent as ‘Pittsburgh’.</p>
 <p>Another way to make the comparision between the coaches is by calculating the <em>tf-idf</em> for each word. This value is obtained by multiplying the <em>term frequency</em>, the fraction of occurrences of the word in the text, by the <em>inverse document frequency</em>, the log of the ratio of the total number of ‘documents’ to the number of documents in which the word in question appears. This value is higher for words that appear more sparingly across documents. For this analysis, if we only considered the two sets of texts provided by each coach as the two documents, we would only obtain two possible values for tf-idf, one of which being 0. Instead, we will split the text by individual interview, then recombine the top words for each interview by coach in the plot.</p>
 <pre class="r"><code># TF-IDF
@@ -485,7 +481,7 @@ ggplot(top.words.tf, aes(Word, tf_idf, fill = Subject)) +
   ylab(&quot;tf-idf&quot;) +
   coord_flip() + 
   theme_bw(15)</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 <p>Notice that there are fewer hockey-centric terms here, as these would probably be used in many of the interviews. We find some references to coaches’ own players again (including Long Beach Native™ <a href="https://en.wikipedia.org/wiki/Matt_Nieto">Matt Nieto</a>), along with a reminder that I should have removed individual numbers from the text before running the analyses (my bad!). Otherwise, we get a small glimpse into the mindset of each coach, with Sullivan using words like ‘commitment’, ‘expectation’, ‘adapting’, and DeBoer using words like ‘composure’, ‘rythym’, and ‘control’</p>
 <p>Through DeBoer’s words we also get a reminder that <a href="http://muhammadali.com/">Muhammad Ali</a> had passed away while this series took place. RIP.</p>
 </div>
@@ -534,7 +530,7 @@ ggplot(data=coaches.word.by.sentiment,aes(x=Label,y=Frequency,color=Subject, gro
   xlab(&quot;Interview&quot;) +
   theme_bw(15) +
   theme(axis.text.x = element_text(angle=90))</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <p>Notice the high positivity from Pittsburgh’s Sullivan in the days following Game 4 (after going up 3 games to 1) and San Jose’s DeBoer after Game 5 (a win that staved off elimination). Also check out the spike in trust in the days following the Game 1 loss by the Sharks, which may reflect DeBoer rallying his troops for an important Game 2. We can see spikes in anticipation for Sullivan before (what turned out to be) the decisive Game 6. On the other hand, there is a small spike in anger for DeBoer after losing the Stanley Cup (understandable!).</p>
 <p>Alternatively, we can simplify analysis and look at the difference between positive and negative words used by each coach over time. Here we use <a href="https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html">Bing Liu’s lexicon</a>, which categorizes words simply as positive or negative.</p>
 <pre class="r"><code>## Positive vs. Negative
@@ -557,7 +553,7 @@ ggplot(data=sentiment.words,aes(x=reorder(factor(Word),Occurrences),y=Occurrence
   xlab(&quot;Word&quot;) +
   coord_flip() +
   theme_bw(15)</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 <p>In general, nothing unexpected here. The most positive word for each coach is ‘win’. Here we see how tricky text analysis can be in most cases. For example, ‘hard’, the most often used negative word by each coach, probably refers to ‘playing hard’, which in a hockey context, should in fact be considerd as a positive. Also, some hockey specific words have their meaning distorted in this lexicon, such as ‘kill’, which in this context refers to penalty kills. Finally, ‘burns’ in this case refers to <a href="https://en.wikipedia.org/wiki/Brent_Burns">Brent Burns</a>, and is almost certainly not a negative; in fact, he was a <a href="https://www.nhl.com/news/norris-trophy-finalists/c-280515914">Norris finalist</a> that season!</p>
 <p>Keeping that in mind, we plot the positivity of each coach over time.</p>
 <pre class="r"><code># Find the difference between number of positive and negative words 
@@ -577,7 +573,7 @@ ggplot(positive.negative, aes(x=Label, y=Positivity, fill = Subject)) +
   xlab(&quot;Interview&quot;) +
   theme_bw(15) + 
   theme(axis.text.x = element_text(angle=90))</code></pre>
-<p><img src="/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<p><img src="https://mathieubray.com/post/Text-Analysis-Hockey-Coaches_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
 <p>We notice the two tallest bars for each coach occur in post-game interviews for games the respective coach won, with the largest bar occurring on the post-game interview after the Penguins Cup win. The only overall negative interviews were by DeBoer, after a particularly devastating Game 2 overtime loss, and the day after a loss putting the Sharks down 3 games to 1.</p>
 </div>
 <div id="a-few-things-to-consider" class="section level3">
@@ -655,13 +651,13 @@ negated.words</code></pre>
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="/2016/12/23/hello-world/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://mathieubray.com/2016/12/23/hello-world/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="/2016/12/23/hello-world/">Hello World!</a>
+      <a href="https://mathieubray.com/2016/12/23/hello-world/">Hello World!</a>
     </nav>
     
   </div>
@@ -671,13 +667,13 @@ negated.words</code></pre>
   <div class="pure-u-10-24">
     
     <nav class="next">
-      <a href="/2017/03/29/extract-notes-mendeley/">Extract Mendeley Notes Using R</a>
+      <a href="https://mathieubray.com/2017/03/29/extract-notes-mendeley/">Extract Mendeley Notes Using R</a>
     </nav>
     
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
     
-    <a href="/2017/03/29/extract-notes-mendeley/"><i class="fa fa-chevron-right"></i></a>
+    <a href="https://mathieubray.com/2017/03/29/extract-notes-mendeley/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
@@ -708,7 +704,7 @@ negated.words</code></pre>
 
 </div>
 </div>
-<script src="/js/ui.js"></script>
+<script src="https://mathieubray.com/js/ui.js"></script>
 <script src="//yihui.name/js/math-code.js"></script>
 <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
@@ -727,7 +723,7 @@ negated.words</code></pre>
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-89873260-1', 'auto');
+  ga('create', '361390809', 'auto');
   ga('send', 'pageview');
 
 </script>
